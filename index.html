@@ -3,26 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Recipe Webpage</title>
+    <title>Food Recipes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Delicious Recipes</h1>
-        <input type="text" id="search" placeholder="Search for recipes...">
-        <button id="searchButton">Search</button>
+        <h1>Food Recipe Finder</h1>
+        <input type="text" id="search-box" placeholder="Search for food...">
+        <button id="search-btn">Search</button>
     </header>
-    <main id="recipeContainer"></main>
-    <h3>Available Recipes</h3>
-    <img src="as1.jpeg" height="180">
-    <img src="as2.jpeg" height="180">
-    <img src="as3.jpeg" hegiht="180" >
-    <img src="as4.jpeg" height="180">
-    <img src="as5.jpeg" height="180" >
-    <img src="as6.jpg" height="180" >
-  <footer>
-        <p>&copy; 2024 Recipe Webpage</p>
-    </footer>
+
+    <main>
+        <div id="recipes" class="recipe-container"></div>
+    </main>
+
     <script src="script.js"></script>
 </body>
 </html>
